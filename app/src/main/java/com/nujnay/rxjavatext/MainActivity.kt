@@ -9,11 +9,18 @@ import io.reactivex.schedulers.Schedulers
 import java.text.SimpleDateFormat
 import java.util.*
 import java.util.concurrent.TimeUnit
+import kotlin.collections.HashMap
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        val hashmap = HashMap<String, String>()
+        hashmap["1"] = "1"
+        hashmap["2"] = "2"
+
+
 //        var a = 1
 //
 //        setContentView(R.layout.activity_main)
